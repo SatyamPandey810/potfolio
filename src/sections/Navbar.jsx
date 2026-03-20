@@ -129,7 +129,7 @@ const Navbar = () => {
             </p>
           </div>
           <div className="font-light">
-            <p className="tracking-wider text-white/50">Social Media</p>
+            <p className="tracking-wider text-white/50">Connect with me</p>
             <div className="flex flex-col flex-wrap md:flex-row gap-x-2">
               {socials.map((social, index) => (
                 <a

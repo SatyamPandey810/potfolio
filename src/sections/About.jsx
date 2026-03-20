@@ -11,7 +11,7 @@ const About = () => {
   const aboutText = `Obsessed with building fast, intuitive apps—from pixel-perfect React UIs to bulletproof serverless backends. Every line of code is a promise: quality that users feel.
   When I’m not shipping:
 ⚡️ Open-sourcing my latest experiment (or hacking on yours)
-🎥 Teaching devs on Twitch/YouTube—because rising tides lift all ships
+⚙️ Let’s engineer robust backend systems and seamless web applications.
 🧗 Rock climbing (problem-solving with real stakes)
 🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
   const imgRef = useRef(null);
