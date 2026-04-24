@@ -84,8 +84,8 @@ export const projects = [
     description:
       "A government-grade backend system developed for Gujarat RTO to automate driving tests, manage configurations, and ensure real-time data processing with high reliability.",
     href: "",
-    image: "/assets/projects/adts.jpg",
-    bgImage: "/assets/backgrounds/system.jpg",
+    // image: "/assets/projects/adts.jpg",
+    // bgImage: "/assets/backgrounds/system.jpg",
     frameworks: [
       { id: 1, name: "Node.js" },
       { id: 2, name: "PostgreSQL" },
