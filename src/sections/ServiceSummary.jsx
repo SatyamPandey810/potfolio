@@ -29,42 +29,51 @@ const ServiceSummary = () => {
   });
 
   return (
-    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
-      
-      <div id="title-service-1">
-        <p>Architecture</p>
-      </div>
+<section className="mt-20 sm:mt-1 md:mt-2 overflow-hidden font-light leading-snug text-center mb-24 md:mb-42 contact-text-responsive px-4">
 
-      <div
-        id="title-service-2"
-        className="flex items-center justify-center gap-3 translate-x-16"
-      >
-        <p className="font-normal">Development</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Deployment</p>
-      </div>
+  <div
+    id="title-service-1"
+    className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1"
+  >
+    <p>Architecture</p>
+  </div>
 
-      <div
-        id="title-service-3"
-        className="flex items-center justify-center gap-3 -translate-x-24"
-      >
-        <p>APIs</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p className="italic">Frontends</p>
-        <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Scalability</p>
-      </div>
+  <div
+    id="title-service-2"
+    className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 md:translate-x-16"
+  >
+    <p className="font-normal">Development</p>
+    <div className="w-6 h-1 sm:w-10 md:w-32 bg-gold" />
+    <p>Deployment</p>
+  </div>
 
-      <div id="title-service-4" className="translate-x-24">
-        <p>Databases</p>
-      </div>
+  <div
+    id="title-service-3"
+    className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 md:-translate-x-24"
+  >
+    <p>APIs</p>
+    <div className="w-6 h-1 sm:w-10 md:w-32 bg-gold" />
+    <p className="italic">Frontends</p>
+    <div className="w-6 h-1 sm:w-10 md:w-32 bg-gold" />
+    <p>Scalability</p>
+  </div>
 
-      {/* ✅ FIXED Microservices */}
-      <div id="title-service-5" className="-translate-x-24">
-        <p className="font-medium tracking-wide">Microservices</p>
-      </div>
+  <div
+    id="title-service-4"
+    className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 md:translate-x-24"
+  >
+    <p>Databases</p>
+  </div>
 
-    </section>
+  {/* ✅ FIXED Microservices */}
+  <div
+    id="title-service-5"
+    className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 md:-translate-x-24"
+  >
+    <p className="font-medium tracking-wide">Microservices</p>
+  </div>
+
+</section>
   );
 };
 

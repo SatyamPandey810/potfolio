@@ -9,17 +9,14 @@ const Hero = () => {
    web applications using modern technologies like MERN, 
    Next.js, and microservices—helping startups move faster and scale smarter.`;
   return (
-    <section id="home" className="flex flex-col justify-end min-h-screen">
+    <section id="home" className="flex flex-col justify-end min-h-[65vh] md:min-h-screen">
       <AnimatedHeaderSection
         // subTitle={"404 No Bugs Found"}
         title={"Satyam Pandey"}
         text={text}
         textColor={"text-black"}
       />
-      <figure
-        className="absolute inset-0 -z-50"
-        style={{ width: "100vw", height: "100vh" }}
-      >
+      <figure className="absolute inset-0 -z-50" style={{ width: "100vw", height: "100vh" }}>
         <Canvas
           shadows
           camera={{ position: [0, 0, -10], fov: 17.5, near: 1, far: 20 }}

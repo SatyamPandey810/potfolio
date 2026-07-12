@@ -129,16 +129,19 @@ const Works = () => {
             />
 
             {/* title */}
-            <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
-              <h2 className="lg:text-[32px] text-[26px] leading-none">
+            <div className="flex items-center justify-between gap-2 px-4 sm:px-6 md:px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+              <h2 className="text-lg sm:text-7xl md:text-[28px] lg:text-[32px] leading-tight sm:leading-none">
                 {project.name}
               </h2>
-              <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
+              <Icon
+                icon="lucide:arrow-up-right"
+                className="size-4 sm:size-5 md:size-6 shrink-0"
+              />
             </div>
             {/* divider */}
             <div className="w-full h-0.5 bg-black/80" />
             {/* framework */}
-            <div className="flex px-10 text-xs leading-loose uppercase transtion-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
+            <div className="flex flex-wrap px-4 sm:px-6 md:px-10 text-[10px] sm:text-xs md:text-sm leading-loose uppercase transition-all duration-500 gap-x-3 sm:gap-x-4 md:gap-x-5 gap-y-1 md:group-hover:px-12">
               {project.frameworks.map((framework) => (
                 <p
                   key={framework.id}
